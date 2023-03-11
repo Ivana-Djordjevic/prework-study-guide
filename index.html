@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -12,11 +13,109 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+            <li> Serves as like the <i>skeleton of a webpage</i>.</li>
+            <li>The <b>head element</b> contains information about the webpage (aka metadata). 
+              <ul>
+                <li>Important for SEO (Search Engine Optimization).</li>
+                <li>You can think of it as a brain because you can't see what the person is thinking.</li>
+              </ul></li>
+            <li>The <b>body element</b> represents the visible content shown to the user.
+              <ul>
+                <li>Going with the previous brain analogy, these would be like the words that come out your mouth, that everyone can see or hear.</li>
+              </ul></li>
+            <li>The elements can be categorized in a binary fashion of "<b>parental elements</b>" and "<b>child elements</b>", the child elements being within the parental one.
+             <ul>
+              <li>it's all relative, a parent element can alse be see seen as a child element depending on the starting point.</li>
+             </ul></li>
+            <li>The <b>footer element</b> may logically seem to be outside of the body element for non-coders, however it is a child element of the body element.</li>
+        </ul>
+      </section>
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+            <li>Serves as <i>fashion stylist</i> to the skleton.</li>
+            <uL>
+              <li>This is where the pleasing aesthetics come through.</li>
+            </uL>
+            <li>There are 3 different kinds
+              <ul>
+                <ol>CSS incline
+                <ul>
+                  <li>Uses the style attributess to change the color of a single heading.</li>
+                </ul>
+                Internal CSS stylesheet
+                <ul>
+                  <li>Contains CSS rules for the webpage in the head section of the HTML file.</li>
+                  <li>Rules apply only to that page</li>
+                </ul>
+                <b>External CSS stylesheet</b>
+                <ul>
+                  <li>Allows developpers to keep all their CSS rules in a sperate file</li>
+                  <li>Makes design changes easier.</li>
+                  <li>Also the one we'll be using for the bootcamp.</li>
+                </ul>
+                </ol>
+              </ul>
+            </li>
+            <li>Below is some useful terminology</li>
+            <ul>
+              <li>A <b>delacration</b> has 2 components</li>
+              <ul>
+                <li>CSS property we want to apply</li>
+              <li>the value of that property</li>
+              </ul>
+              <li><b>margin</b></li>
+              <ul>
+                <li>how much space we want outside an element</li>
+              </ul>
+              <li><b>padding</b></li>
+              <ul>
+                <li>adds space around the content inside an element</li>
+              </ul>
+              <li><b>*</b></li>
+              <ul>
+                <li>applies a rule to all the elements visible on the page</li>
+              </ul>
+              <li><b>.</b></li>
+              <ul>
+                <li>applies rule to class sector</li>
+              </ul>
+            <li>--> keep in mind that if a rule applies to more than one selector, you can code them together as long as you seperate them by a comma.</li>
+            </ul>
+        </ul>
+      </section>
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+            <li><b>git status</b>: check what branch we are currently on</li>
+            <li><b>git checkout -b insert-branch-name-here</b>: creates a new branch and switches to it</li>
+            <ul>
+              <li>if you only want to swtich branches, omit -b</li>
+            </ul>
+            <li><b>git add -A</b>: adds modification to the current working branch. i'm assuming this is after you've added things to your file, you officially add them to the branch with this commend. tbd</li>
+            <li><b>git commit -m "add insert-name-of-branch"</b>: command with a commit message that describes what the commit contains. i believe this means detailing you're gonna categorize what you've just worked on, as a commit, that way ppl in github will see the title of the work you've done, and then click on it to get into the details of it, like taking a look at the feature branch you just finished working on. tbd</li>
+            <li><b>git pull origin main</b>: used to synch the local branch, that you worked on remotely to, with the base branch in Github. Important to start your work with this command ensure you're working on the latest version of the project. to pull is to recieve a branch's modifications into the local environment - okay so here we are taking the info from Github</li>
+            <li><b>git push origin insert-branch-name-here</b>: pushes the changes we made locally to the Github branch. push means to create new remote branch or add new changes to an existing one. so after you've edited the data you pulled, you now push it back to the main server.</li>
+        </ul>
+
+      </section>
+      <section class="card" id="javascript-section">
+        <h2>Javascript</h2>
+        <ul>
+            <li>Continuing with the freshly styled skeleton analogy, javasctript is <i>the puppeteer</i> who brings it to life.
+              <ul><li>basically how the users will be able to interact with you, i believe, tbd.</li>
+              </ul></li>
+        </ul>
+      </section>
     </main>
 
     <footer>
-      <p>I can code!</p>
+      <p>I am attempting to code!</p>
     </footer>
   </body>
 </html>
