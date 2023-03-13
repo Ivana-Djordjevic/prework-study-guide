@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -87,6 +88,12 @@
             <li>--> keep in mind that if a rule applies to more than one selector, you can code them together as long as you seperate them by a comma.</li>
             </ul>
         </ul>
+        <ul>
+          <li>Remember that you must link the CSS file with your HTLM file or else the CSS features will not show up.</li>
+          <ul>
+            <li>add a link element inside the head element</li>
+          </ul>
+        </ul>
       </section>
 
       <section class="card" id="git-section">
@@ -110,6 +117,87 @@
             <li>Continuing with the freshly styled skeleton analogy, javasctript is <i>the puppeteer</i> who brings it to life.
               <ul><li>basically how the users will be able to interact with you, i believe, tbd.</li>
               </ul></li>
+            <li>A <b>variable</b> is a named container that allows us to store data in our code.</li>
+            <ul>
+              <li>Must be unique because it will reference the information stored</li>
+              <li>followed by an equal sign to specify the data.</li>
+              <li>there are various types (here are a few): 
+                <ul>
+                  <li><b>string</b></li>
+                  <ul>
+                    <li>sequence of text</li>
+                    <li>enclosed in quotation marks</li>
+                  </ul>
+                  <li><b>number</b></li>
+                  <ul>
+                    <li>numbers</li>
+                    <li>does not need quotation marks</li>
+                  </ul>
+                  <li><b>Boolean</b></li>
+                  <ul>
+                    <li>true or false</li>
+                    <li>does not need quotation marks</li>
+                  </ul>
+                  <li><b>array</b></li>
+                  <ul>
+                    <li>a single variable that is used to hold a group of data</li>
+                    <li>always zero-indexed, meaning list starts from 0</li>
+                  </ul>
+                </ul>
+            </ul>
+            <li><b>Control flow</b> is the order in which a computer executes code in a script.</li>
+            <ul>
+              <li>read in a linear fashion, from top to bottom</li>
+              <li>can be interrupted by conditional statements and loops</li>
+            </ul>
+            <li><b>Conditional statements</b> start with <b>if</b> (condition){block of code to be executed if condition is truthy}</li>
+            <ul>
+              <li> if there's more than one condition, add <b>else if</b>.</li>
+            </ul>
+            <li><b>Loops</b> are used to avoid writing "console.log(var)[0])" for each number (of the things listed in the array)</li>
+            <ul>
+              <il>It contains 3 statements</il>
+              <ul>
+                <li>1- starting point of the loop</li>
+                <ul>
+                  <li>delcare a variable x and give it value 0</li>
+                </ul>
+                <li>2- the condition</li>
+                <ul>
+                  <li>x < variable.length; </li>
+                  <li>as long as the number in the variable x is less than the length of the array, the loop will keep running.</li>
+                </ul>
+                <li>3- the final statement</li>
+                <ul>
+                  <li>allows the array to iterate over each item</li>
+                  <li>we know the number increases by 1 each time</li>
+                  <li>code x++ is a shorcut for x+1</li>
+                  <ul>
+                    <li>each code loops, it will increase by 1</li>
+                  </ul>
+                </ul>
+                <li>ends with code block</li>
+                <ul>
+                  <li>defines the code we want to repeat</li>
+                  <ul>
+                    <li>console.log</li>
+                  </ul>
+                </ul>
+              </ul>
+            </ul>
+            <li>A <b>function</b> is a set of instructions that tells the computer how to perform a task</li>
+            <ul>
+              <li>create a function using the keyword: function</li>
+              <li>followed by its unique name (name used whenever we call the function)</li>
+              <li>followed () (that defines the parameters)</li>
+              <li>follwed by {insert code block}</li>
+              <li>important to note that in order for the code inside of a function to run, it needs to be called</li>
+            </ul>
+            <li>The math function helps to select a random number.</li>
+            <ul>
+              <li><b>(Math.floor(Math.random))</b> can be used together ro generate a random number</li>
+              <li>unclear what the difference is, tbd.</li>
+            </ul>
         </ul>
       </section>
     </main>
@@ -117,5 +205,6 @@
     <footer>
       <p>I am attempting to code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
