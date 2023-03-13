@@ -11,7 +11,9 @@ Provide a short description explaining the what, why, and how of your project. U
 - What problem does it solve? 
 - Coming in with 0 background in coding, this has helped build a small base off which I can work from, expand, and add more.
 - What did you learn?
-- i learned  
+- I learned an example of how a coder works. Being introduced to Github put a persective of how things are likely to look like when you get a job.
+- By creating a website, I was able to learn the basics of how HTML, CSS and JS come together. It's not a complex website by any means, so there is a lot of room for improvement and growth, but it was a good introduction of what's yet to come.
+
 
 ## Installation
 
@@ -21,7 +23,8 @@ What are the steps required to install your project? Provide a step-by-step desc
 ## Usage
 
 - This prework study guide is tailored to the UCD coding bootcamp. It was meant as way to allow all the participating students to start the class on an equal footing. 
-- It can be used as reference to basics, the content is not extensive, it's rather very rudimentary. It was derived by what the modules taught us, therefore the topics and details listed are geared towards that. So if it feels like other core values or detailed were neglected, that could be the reason. It's important to keep in mind that 
+- It can be used as reference to basics (HTML, CSS, JS, and  Github), the content is not extensive, it's rather very rudimentary. It was derived by what the prework modules taught us, therefore the topics and details listed are geared towards that. If it feels like other core values or details were overlooked or neglected, that could be the reason. It's also important to keep in mind that it is was also filtered through to what I deemed was important.
+- Although it was catered to the UCD bootcamp, if other people come across it, they can use it as a guiding tool and determine what is a good starting point. However, the header element did not contain the words ""coding, or "learning how to code", therefore it's highly unlikely that they will come across this page as it would not show up in the search engines.
 
 Provide instructions and examples for use. Include screenshots as needed.
 
